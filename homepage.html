@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Travel Krabi">
+    <meta name="description" content="">
+    <meta name="author" content="Rachtipong Chaiprab">
+    <title>SAU Tourist</title>
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--Begin Navbar-->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(151, 103, 241)">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#">SAU Tourist</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="./homepage.html">หน้าหลัก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./krabiInfo.html">ข้อมูลจังหวัด</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            สถานที่ในกระบี่
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./krabiTravel.html">สถานที่ท่องเที่ยว</a></li>
+                            <li><a class="dropdown-item" href="./krabiEat.html">สถานที่กิน</a></li>
+                            <li><a class="dropdown-item" href="./krabiHotel.html">สถานที่พัก</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./aboutUs.html"
+                                    style="font-weight: bold;">เกี่ยวกับเรา</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="ค้นหา" aria-label="Search">
+                    <button class="btn btn-outline-light me-2" type="submit">ค้นหา</button>
+                    <a class="btn btn-outline-light" href="./login.html" role="button">ลงชื่อเข้าใช้</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar-->
+
+    <br><br>
+
+    <!--Begin Carousel-->
+    <div class="container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./images/homepageImages/jadepool.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/homepageImages/lanta.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/homepageImages/pp.jpg" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/homepageImages/tigerCave1.jpg"
+                        class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./images/homepageImages/mahya1.jpg"
+                        class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--End Carousel-->
+
+    <br>
+    <hr class="container">
+
+    <h1 class="container mt-4 mb-4 fw-bold">สถานที่ท่องเที่ยวแนะนำ</h1>
+    <!--Begin Card-->
+    <div class="container" style="text-align: center;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/pp1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">เกาะพีพี</h5>
+                        <p class="card-text">
+                            "เกาะพีพี ที่มีทรายขาว น้ำทะเลใส และวิวที่งดงามไม่ซ้ำใคร"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel01" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/lanta1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">อุทยานแห่งชาติหมู่เกาะลันตา</h5>
+                        <p class="card-text">
+                            "อุทยานแห่งชาติหมู่เกาะลันตา ที่มอบประสบการณ์ท่องเที่ยวที่งดงามและความสงบสุขกับธรรมชาติที่สดใส"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel02" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/jadepool1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">สระมรกต</h5>
+                        <p class="card-text">
+                            "สระมรกต ที่มีน้ำใสสะอาดและบรรยากาศเงียบสงบที่ชวนให้ผู้คนมาพักผ่อนและร่วมสัมผัสกับธรรมชาติอันงดงาม"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel03" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/waterfall.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">น้ำตกห้วยโต้</h5>
+                        <p class="card-text">
+                            "สถานที่ที่มีความงดงามและเสน่ห์ของธรรมชาติที่ทำให้ใจเราได้รับการพักผ่อนอย่างเต็มที่"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel04" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/tigerCave.jpeg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">วัดถ้ำเสือ</h5>
+                        <p class="card-text">
+                            "แหล่งศิลปวัตถุที่มีความสวยงามและเป็นที่น่าประทับใจของผู้ที่มาเยี่ยมชมและสัมผัสศิลปะศิลาที่งดงาม"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel05" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/homepageImages/mahya.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">อ่าวมาหยา</h5>
+                        <p class="card-text">
+                            "ทะเลสาบสวยงามและบรรยากาศที่เงียบสงบที่ทำให้ใครหลงรักและต้องกลับมาอีก"
+                        </p>
+                        <a href="./krabiTravel.html#krabiTravel06" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Card-->
+
+    <br>
+    <hr class="container">
+
+    <h1 class="container mt-4 mb-4 fw-bold">ร้านอาหารแนะนำ</h1>
+
+    <div class="container" style="text-align: center;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiEatImages/river/river1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">ร้าน The River Restaurant & Bar krabi</h5>
+                        <p class="card-text">
+                            <hr>
+                        </p>
+                        <a href="./krabiEat.html#krabiEat01" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiEatImages/nangan/nangan2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">ร้านนางแอ่น Nang An Restaurant</h5>
+                        <p class="card-text">
+                            <hr>
+                        </p>
+                        <a href="./krabiEat.html#krabiEat02" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiEatImages/maying/maying1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">ร้านกระชังบ้านมะหญิง Baan Ma Yhing</h5>
+                        <p class="card-text">
+                            <hr class="container">
+                        </p>
+                        <a href="./krabiEat.html#krabiEat03" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr class="container">
+
+    <h1 class="container mt-4 mb-4 fw-bold">ที่พักแนะนำ</h1>
+
+    <!--Begin Carousel-->
+    <div class="container" style="text-align: center;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiHotelImages/banyan/banyan1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">บันยัน ทรี กระบี่</h5>
+                        <p class="card-text">
+                            <hr>
+                        </p>
+                        <a href="./krabiHotel.html#krabiHotel01" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiHotelImages/naga/naga1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">นาคามันดา รีสอร์ท แอนด์ สปา</h5>
+                        <p class="card-text">
+                            <hr>
+                        </p>
+                        <a href="./krabiHotel.html#krabiHotel02" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+                <div class="card" style="width: 22rem; height: 24rem;">
+                    <img src="./images/krabiHotelImages/raya/raya1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">โรงแรมรายาวดี รีสอร์ท</h5>
+                        <p class="card-text">
+                            <hr>
+                        </p>
+                        <a href="./krabiHotel.html#krabiHotel03" class="btn btn-primary">สำรวจ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Card-->
+
+    <br><br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
