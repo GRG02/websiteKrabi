@@ -5,6 +5,23 @@
     font-family: "Poppins", sans-serif;
 }
 
+.headname {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.SA {
+    color: #1b107e;
+}
+
+.U {
+    color: #d8b92f;
+}
+
+.Tourist {
+    color: #e2e2e2;
+}
+
 body {
     display: flex;
     justify-content: center;
